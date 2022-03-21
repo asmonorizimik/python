@@ -2,18 +2,14 @@
 # i=0
 # x=[]
 # while i<len(list):
-#     x.append(str(list[i])+str(list[i+1]))
+#     a=[]
+#     y=(str(list[i])+str(list[i+1]))
+#     a.append(y)
+#     x.append(a)
+    
+
 #     i+=2
 # print(x)
-
-
-# list=[1,[2,3,4],5,6,[7,8,9,[10,11,12],13,14]]
-# print(list[0])
-# print(list[1][0])
-# print(list[2])
-# print(list[4][2])
-# print(list[4][4])
-# print(list[4][3][1])
 
 
 
@@ -29,5 +25,23 @@
 # print(a)
 # print("sum =",sum)
 
+
+
+# a="hello"
+# i=0
+# while i<len(a):
+#     if a[i]=="e" or a[i]=="o":
+#         b=a[i].upper()
+#         x=str(ord(b))
+#         # print(x,end='')
+#         c=0
+#         sum=0
+#         while c<len(x):
+#             sum+=int(x[c])
+#             c+=1
+#         print(sum,end='')
+#     else:
+#         print(a[i],end='')
+#     i+=1
 
 

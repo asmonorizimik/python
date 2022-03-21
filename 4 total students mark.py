@@ -23,7 +23,7 @@
 
 # mark=[]
 # i=0
-# total=i
+# total=0
 # while i<10:
 #     mark.append(int(input("enter any number: ")))
 #     total=total+mark[i]

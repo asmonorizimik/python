@@ -1,9 +1,9 @@
 
 #### 1.method to change list
 # thelist=["apple","banana","mango","grapes","kiwi"]
-# thelist[1]="pineapple"
+# thelist[4]="pineapple"
 # print(thelist)
-## change the list by indexing ...indexing means taking out single item from the list
+# # change the list by indexing ...indexing means taking out single item from the list
 
 
 
@@ -31,7 +31,7 @@
 ###5. method to extend element from another list to the current list: extend()
 # list1=[0,1,2,3,4,5,]
 # list2=[6,7,8,9]
-# list1.extend(list2)
+# list1.extend(list2) or list1.extend("p")
 # print(list1)
 
 
@@ -78,7 +78,7 @@
 # print(list1) 
 
 
-###12.sort method will sort the list alphanumerically, ascending by default
+# ###12.sort method will sort the list alphanumerically, ascending by default
 # list=[1,5,6,3,9,2,10,45,7,32]
 # list.sort()
 # # list.sort(reverse=True)
@@ -86,6 +86,8 @@
 
 
 # list=[9,4,23,6,4,87,54,65]
+# list.insert(0,"manori")
+# print(list)
 # list.reverse()
 # print(list)
 
@@ -113,8 +115,8 @@
 
 ###15 count method...used  when there are duplicate items
 # item=["a","b","a","c"]
-# count=item.count("a")
-# print("count of a:",count)
+# c=item.count("a")
+# print("count of a:",c)
 
 
 
@@ -122,3 +124,5 @@
 # str="we learn software skills in ng"
 # a=str.split()
 # print(a)
+
+
